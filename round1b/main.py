@@ -9,9 +9,9 @@ if len(sys.argv) >= 4:
     OUTLINE_DIR = sys.argv[2]
     OUTPUT_DIR = sys.argv[3]
 else:
-    PDF_DIR = r"C:/Users/rohit/OneDrive/Desktop/pdf_Persona/input"
-    OUTLINE_DIR = r"C:/Users/rohit/OneDrive/Desktop/pdf_Persona/input_json"
-    OUTPUT_DIR = r"C:/Users/rohit/OneDrive/Desktop/pdf_Persona/output"
+    PDF_DIR = r"C:/Users/rohit/OneDrive/Desktop/pdf_Persona/input3"
+    OUTLINE_DIR = r"C:/Users/rohit/OneDrive/Desktop/pdf_Persona/input3_json"
+    OUTPUT_DIR = r"C:/Users/rohit/OneDrive/Desktop/pdf_Persona/output3"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

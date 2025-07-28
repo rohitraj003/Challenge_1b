@@ -1,0 +1,4 @@
+pdfplumber>=0.5.28
+sentence-transformers>=2.2.2
+torch>=1.13.0
+numpy
