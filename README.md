@@ -32,12 +32,12 @@ docker build --platform linux/amd64 -t round1b:somerandomidentifier .
 
 ### 2. Run Container
 ```bash
-docker run --rm \
-  -v $(pwd)/input:/app/input \
-  -v $(pwd)/input_json:/app/input_json \
-  -v $(pwd)/output:/app/output \
-  --network none \
-  round1b:somerandomidentifier
+docker run --rm `
+   -v "${PWD}\input3:/app/input:ro" `
+   -v "${PWD}\input3_json:/app/input_json:ro" `
+   -v "${PWD}\output3:/app/output:rw" `
+   --network none `
+   round1b:latest
 ```
 
 **Input:**
