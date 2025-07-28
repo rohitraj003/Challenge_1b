@@ -55,9 +55,9 @@ docker run --rm \
 .
 ├── Dockerfile
 ├── README.md
+├── requirements.txt
 ├── round1b/
 │   ├── main.py
-│   ├── requirements.txt
 │   └── models/
 ├── input/          # Place PDFs & persona.txt/job.txt here
 ├── input_json/     # Place outline JSON files here
