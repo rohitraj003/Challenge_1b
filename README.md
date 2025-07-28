@@ -27,7 +27,7 @@ The solution runs fully offline, uses a local sentence-transformer model, and me
 
 ### 1. Build Docker Image
 ```bash
-docker build --platform linux/amd64 -t mysolutionname1b:somerandomidentifier .
+docker build --platform linux/amd64 -t round1b:somerandomidentifier .
 ```
 
 ### 2. Run Container
@@ -37,7 +37,7 @@ docker run --rm \
   -v $(pwd)/input_json:/app/input_json \
   -v $(pwd)/output:/app/output \
   --network none \
-  mysolutionname1b:somerandomidentifier
+  round1b:somerandomidentifier
 ```
 
 **Input:**
